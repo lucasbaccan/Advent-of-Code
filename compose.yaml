@@ -3,5 +3,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    # ports:
+    #   - "5000:5000"
     volumes:
       - .:/app
+    # environment:
+    #   - YEAR=2024
+    #   - DAY=1
+    #   - PART=1
